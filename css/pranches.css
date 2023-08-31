@@ -1,0 +1,92 @@
+.contain{
+    height: 100vh;
+    margin: auto;
+}
+.contain .titlle{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: gray;
+}
+.contain .line{
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    margin-left: 420px;
+    margin-bottom: 20px;
+}
+.contain .conteent{
+    width: auto;
+}
+.item11,.item22,.item33{
+    float: left;
+    width: 25%;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 18px 14px;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    border-radius: 50px 10px;
+    margin-left:70px;
+}
+.imagee{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.imagee .imageee{
+    width: 100%;
+}
+.social{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+.item11:hover .social,.item22:hover .social,.item33:hover .social{
+    visibility: visible;
+    opacity: .5;
+}
+.social a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0.9);
+    color:whitesmoke;
+    margin-left: auto;
+    border-radius: 40px;
+}
+.social2 a{
+    background-color: rgba(0, 200, 0, 0.9);
+}
+.social3 a{
+    background-color: rgba(0, 0, 255, 0.9);
+}
+.social a i{
+    line-height: 40px;
+    font-size: 25px;
+}
+.info_title{
+    text-transform: capitalize;
+    color: black;
+    padding: 10px 0px;
+}
+.info_title:hover,.info_p:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
+.info_title2:hover,.info_p2:hover{
+    color: rgba(0, 200, 0, 0.5);
+}
+.info_title3:hover,.info_p3:hover{
+    color: rgba(0, 0, 255, 0.8);
+}
+.info_p{
+    text-transform: uppercase;
+    color: black;
+}
